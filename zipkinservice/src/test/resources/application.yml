@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring5webapp
+# Port used to initialize embedded container
+server:
+  port: 9999

@@ -1,0 +1,32 @@
+spring:
+  #zipkin:
+    #baseUrl:  http://localhost:9411
+  #application:
+   # name: zipkin-server336
+logging:
+  level:
+    root: INFO
+    org.springframework.*: INFO
+
+# Shows application health information on ACTUATOR endpoints
+endpoints:
+  enabled: false
+  health.enabled: true
+
+service: /zipkin
+---
+spring:
+  profiles: S1
+
+port: 9402
+---
+spring:
+  profiles: S2
+
+port: 9403
+---
+spring:
+  profiles: S3
+
+port: 9403
+service: /echo
