@@ -30,6 +30,8 @@
       <module>zipkinservice</module>
       <module>configserver</module>
       <module>configclient</module>
+      <module>eurekaserver</module>
+      <module>balanceservice</module>
   </modules>
 
   <build>
