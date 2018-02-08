@@ -28,6 +28,8 @@
   <modules>
       <module>demotracing</module>
       <module>zipkinservice</module>
+      <module>configserver</module>
+      <module>configclient</module>
   </modules>
 
   <build>
